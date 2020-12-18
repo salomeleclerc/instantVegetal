@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Rubik', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 135%;
+    color: #29344B;
+}
+/*
+.slider img{
+    height: 100vh;
+    overflow: hidden;
+}
+.slides{
+    height: calc(100vh * 6);
+    animation: glisse 20s infinite;
+}
+.slide{
+    float: left;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0)
+    }
+    16%{
+        transform: translateX(-100vh)
+    }
+    33%{
+        transform: translateX(-200vh)
+    }
+    49%{
+        transform: translateX(-300vh)
+    }
+    65%{
+        transform: translateX(-400vh)
+    }
+    81%{
+        transform: translateX(-500vh)
+    }
+    100%{
+        transform: translateX(-0)
+    }
+}
+*/
+header{
+    background-image: url(/Ressources/img/fleur6.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2{
+    font-family: 'Satisfy';
+    color:#E7C296;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-family: 'Satisfy';
+    color: #E7C296;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-family: 'Rubik', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.nav-icon{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin: 20px;
+}
+#menu, #card{
+    font-size: 400%;
+    color: #E7C296;
+}
+.img-qui-change{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%);
+    color: #E7C296;
+    font-size: 150%;
+}
+.img-change{
+    list-style: none;
+    display: inline-block
+}
+.wallpaper{
+    background-image: url(/Ressources/img/fleur8.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+.h1-f-e{
+    font-family: 'Satisfy', 'Arial', sans-serif;
+    position: absolute;
+    left: 50%;
+    margin-top: 55px;
+    font-size: 60px;
+    color: #E7C296;
+    transform: translate(-50%);
+}
+.fleche{
+    background-color: #E7C296;
+    height: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center
+}
+.la-fleche{
+    font-size: 300%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+.cadre{
+    background-color: #29344B;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0 90px;
+}
+.text-cadre{
+    display: inline-block;
+    background-color: #E7C296;
+    width: 300px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 130px;
+    border-radius: 10%;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+.text-cadre:hover{
+    transform: scale(1.3);
+}
+.row{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.text-cadre h2, p{
+    font-family: 'Satisfy', 'Arial', sans-serif;
+    font-size: 40px;
+    color: #29344B;
+    text-align: center;
+    margin: 25px;
+}
+.text-cadre p{
+    font-family: 'Rubik', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+.photo{
+    background-image: url(/Ressources/img/fleur10.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.image img{
+    margin: 40px 55px;
+    width: 320px;
+    height: 220px;
+    opacity: 0.8;
+    transform: scale(1.15);
+    transition: transform 0.8s, opacity 0.8s;
+}
+.image img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+.fleurs-sechees{
+    background-color: #29344B;
+    padding: 50px 200px;
+}
+.fleurs-sechees h2{
+    color:#E7C296;
+    font-size: 40px;
+    text-align: center;
+}
+.fleurs-sechees p{
+    font-family: 'Rubik';
+    font-size: 18px;
+    text-align: center;
+    color:#E7C296;
+}
+.supplements{
+    background-color: #E7C296;
+    height: 50vh;
+    padding-left: 0px 300px;
+}
+.supplements2{
+    color: #29344B;
+    height: 30vh;
+}
+.supplements h3, h2{
+    color: #29344B;
+    padding-top: 30px;
+}
+.supplements h3{
+    padding-top: 50px;
+}
+.supplements p{
+    font-family: 'Rubik';
+    font-size: 20px;
+    margin: 0 280px;
+    padding-top: 20px;
+}
+.liste{
+    display: inline-block;
+    margin-left: 350px;
+    text-align: center;
+    list-style: none;
+    margin-top: 50px;
+}
+.info{
+    background-color: #29344B;
+    height: 35vh;
+}
+.nav-menu{
+    display: inline-block;
+    width: 400px;
+    height: 160px;
+    background-color: #E7C296;
+    margin-left: 195px;
+    margin-top: 40px;
+    border-radius: 40px;
+    transform: scale(0.8);
+    transition: transform 0.7s;
+}
+.nav-menu:hover{
+    transform: scale(1.1)
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu p{
+    font-size: 20px;
+    margin-top: 120px;
+    color: #29344B;
+}
+.icon{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 180px;;
+    font-size: 100px;
+    color: #29344B;
+    transition: color 0.5s;
+}
+.icon:hover{
+    color: #3B5999;
+}
+form{
+    background-image: url(/Ressources/img/fleur9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 250%;
+}
+form, h2{
+    font-size: 70px;
+    padding-top: 30px;
+    font-family: 'Satisfy';
+}
+label{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.name, .email, .msg{
+    font-family: 'Rubik', 'Arial', sans-serif;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 120px;
+    padding-left: 30px;
+    font-size: 60%;
+    color: #29344B;
+}
+.msg{
+    margin-top: 70px;
+    padding-top: 40px;
+    width: 84%;
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: #29344B;
+    color: #E7C296;
+    margin-left: 270px;
+    border: 1px solid #29344B;
+    border-radius: 60px;
+    transition: background 0.5s;
+    border: #3B5999
+}
+button:hover{
+    background-color: #3B5999;
+}
+.ouverture{
+    background-color: #29344B;
+    height: 80vh;
+}
+.ouverture h2{
+    color:#E7C296;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 50px;
+    left: 10%;
+}
+.ouverture p{
+    position: absolute;
+    color:#E7C296;
+    left: 10%;
+    font-family: 'Rubik', 'Arial', sans-serif;
+    font-size: 20px;
+    margin-right: 850px;
+    margin-top: 170px;
+    line-height: 200%;
+}
+.horaire{
+    font-family: 'Rubix', 'Arial', sans-serif;
+    color: #E7C296;
+}
+.map iframe{
+    width: 450px;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: 55px;
+}
+footer{
+    background-color: #E7C296;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.reseaux{
+    display: inline-block;
+    list-style: none;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+#facebook, #instagram{
+    font-size: 700%;
+    color: #29344B;
+}
+#facebook, #instagram{
+    transition: color 0.5s;
+}
+#facebook:hover{
+    color: #3B5999;
+}
+#instagram:hover{
+    color: palevioletred;
+}
+
+
+
+
